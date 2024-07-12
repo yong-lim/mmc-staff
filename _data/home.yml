@@ -16,15 +16,16 @@ videos:
   - title: Excel to Google Sheets
     url: 1QYgSbaI6JxGfkTW31AR5yjApUDYQWeds
     desc: This video will walk you through how to convert an Excel to Google Sheets.
-  - title: Delegate User - Kh
+  - title: Delegated User
+    url: 1EPTn8Bh4CTIK_0DoD5A6-hD5po15joO_
+    desc: This video will show you how to use Delegated account.
+  - title: Delegated User - Kh
     url: 1YLvtM0mhIiJIYyoEi_pYGgrxn3U0KBcN
     desc: This video will show you how to use Delegated account in Khmer.
   - title: Duplicate G Folder
     url: 1b4fdWlbYgXvMrIJxEYPvDV5N2XZfqaaX
     desc: Duplicate a Google Folder with its condent in place.
     new_window: true
-
-
 
 old_project_entries:
   - title: Soopr
@@ -88,10 +89,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
-
-
-
-
-
-
