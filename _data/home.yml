@@ -1,0 +1,97 @@
+navbar_entries:
+  - title: about
+    url: about
+  - title: blog
+    url: blog
+  - title: website
+    url: https://www.mercymedcambodia.org
+
+videos:
+  - title: Reset User's Password
+    url: 1Y8E0wCQRkzd6zx7x7Xv0ITIrGgBeZ0bZ
+    desc: This video will show you how to reset a user's password.
+  - title: Restore Deleted Files
+    url: 1XD4WIS98ZB7pTjUodbqytbYguTpySKav
+    desc: This video will show you how to restore a user's deleted files from *different drives*.
+  - title: Excel to Google Sheets
+    url: 1QYgSbaI6JxGfkTW31AR5yjApUDYQWeds
+    desc: This video will walk you through how to convert an Excel to Google Sheets.
+  - title: Delegate User - Kh
+    url: 1YLvtM0mhIiJIYyoEi_pYGgrxn3U0KBcN
+    desc: This video will show you how to use Delegated account in Khmer.
+  - title: Duplicate G Folder
+    url: 1b4fdWlbYgXvMrIJxEYPvDV5N2XZfqaaX
+    desc: Duplicate a Google Folder with its condent in place.
+    new_window: true
+
+
+
+old_project_entries:
+  - title: Soopr
+    url: https://www.soopr.co
+    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+    highlight: NEW
+
+  - title: Cookie
+    url: https://github.com/abhinavs/cookie
+    desc: An open source landing website with supporting pages and integrated blog
+
+  - title: Moonwalk
+    url: https://github.com/abhinavs/moonwalk
+    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+  - title: Humangous
+    url: https://www.humangous.co
+    desc: The better people know you, the better they collaborate
+
+footer_entries:
+  - title: abhinav's homepage
+    url: https://www.abhinav.co
+
+  - title: twitter
+    url: https://twitter.com/abhinav
+
+  - title: github
+    url: https://github.com/abhinavs
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
+
+
+
+
+
