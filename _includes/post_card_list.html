@@ -1,0 +1,26 @@
+<ul class="horizontal-list">
+  {% for post in site.posts %}
+
+    <li class="card">
+      <a href="{{ post.url | relative_url }}">
+        <span class="header">
+          {{ post.title }}
+
+          {% if post.highlight %}
+            <mark>{{ post.highlight }}</mark>
+          {% endif %}
+
+        </span>
+
+        <hr />
+
+        {% if post.desc != false %}
+        <p class="body">
+          {{ post.desc }}
+        </p>
+        {% endif %}
+      </a>
+    </li>
+
+  {% endfor %}
+</ul>
