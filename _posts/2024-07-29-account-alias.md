@@ -12,6 +12,6 @@ tags: [admin]
 
 * Log into your admin panel and select the user you want to add the alias to.
 * Select "Add Alternative Emails" 
-* Enter the alternative email address
+* Enter the alternative email address and click save
 
 ![Account alias](/assets/images/account-alias.jpg "account alias")
