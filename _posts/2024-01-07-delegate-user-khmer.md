@@ -7,3 +7,15 @@ tags: [lab]
 ---
 
 {% include googleDrivePlayer.html id=page.driveId %}
+
+### របៀបប្រើគណនីផ្ទេរសិទ្ធិ - How to use delegated account/user
+
+1) ទទួលយកអ៊ីមែលចូលប្រើជំនួយ - Accept the Grant Access Email 
+![Accept delegated](/assets/images/Delegated_Accept_Kh.jpg "Accept delegate email")
+
+2) របៀបប្តូរទៅគណនីផ្សេងទៀត។ - How to switch to the other account
+![Switch user](/assets/images/Delegated_Switch_Kh.jpg "Switch user")
+
+3) តើគណនីផ្សេងទៀតមើលទៅដូចអ្វី - What the other account looks like
+![In other user](/assets/images/Delegated_Other_Kh.jpg "In other user")
+
