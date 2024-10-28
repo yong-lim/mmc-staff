@@ -7,8 +7,6 @@ navbar_entries:
     url: lab
   - title: about
     url: about
-  - title: website
-    url: https://www.mercymedcambodia.org
 
 videos:
   - title: Reset User's Password
