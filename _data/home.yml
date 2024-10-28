@@ -1,12 +1,12 @@
 navbar_entries:
-  - title: all
-    url: /
-  - title: admin
-    url: admin
+  - title: days off
+    url: pages/days-off
   - title: lab
-    url: lab
+    url: pages/lab
+  - title: admin
+    url: pages/admin
   - title: about
-    url: about
+    url: pages/about
 
 videos:
   - title: Reset User's Password

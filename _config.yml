@@ -35,3 +35,16 @@ sass:
   style: :compressed
 
 G-link: https://drive.google.com/file/d/
+
+collections:
+  pages:
+    output: true
+    permalink: /pages/:name
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
