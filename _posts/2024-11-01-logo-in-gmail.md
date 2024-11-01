@@ -10,6 +10,8 @@ tags: [google-docs]
 
 Here are two logos that you can use for your Gmail signature:
 
+> ![image](https://logo.mmccambodia.org/images/MMC-logo.jpg)
 > https://logo.mmccambodia.org/images/MMC-logo.jpg
 
+> ![image](https://logo.mmccambodia.org/images/MMC_logo_final-01.png)
 > https://logo.mmccambodia.org/images/MMC_logo_final-01.png
