@@ -1,4 +1,6 @@
 navbar_entries:
+  - title: Google Docs
+    url: pages/google-docs
   - title: days off
     url: pages/days-off
   - title: lab
