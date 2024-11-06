@@ -6,9 +6,7 @@ driveId: 1EPTn8Bh4CTIK_0DoD5A6-hD5po15joO_
 tags: [days-off]
 ---
 
-{% include googleDrivePlayer.html id=page.driveId %}
-
-<hr>
 Click on this Google Form link to request your days off record:
-[My Days Off Record](https://forms.gle/RUWMHSHtihqXADeP7)
-
+[My Days Off Record](https://forms.gle/3xsFYasM3tixzQgJA)
+<hr>
+{% include googleDrivePlayer.html id=page.driveId %}

@@ -9,8 +9,6 @@ logo-1: /logos/MMC-logo.png
 logo-2: /logos/MMC-logo-text.png
 ---
 
-{% include googleDrivePlayer.html id=page.driveId %}
-
 Here are two logos that you can use for your Gmail signature:
 
 > ![logo-1]({{ page.logo-1 }}){:.logo}
@@ -18,4 +16,6 @@ Here are two logos that you can use for your Gmail signature:
 
 > ![logo-2]({{ page.logo-2 }}){:.logo}
 > https://public.mmccambodia.org{{ page.logo-2 }}
+<hr>
+{% include googleDrivePlayer.html id=page.driveId %}
 
