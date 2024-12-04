@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Delegated User
+title: Delegate User
 desc: This video will show you how to use Delegated account.
 driveId: 1EPTn8Bh4CTIK_0DoD5A6-hD5po15joO_
-tags: [lab]
+tags: [lab, google-docs]
 ---
 
 {% include googleDrivePlayer.html id=page.driveId %}
 
-### How to use delegated account/user
+### How to use delegate account/user
 
 1) Accept the Grant Access Email 
 ![Accept delegated](/assets/images/Delegated_Account_Accept.jpg "Accept delegate email")
