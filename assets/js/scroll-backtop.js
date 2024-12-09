@@ -11,3 +11,17 @@ $(document).ready(function(){
        return false; 
    }); 
 });
+
+
+document.querySelectorAll('img').forEach(i => {
+  i.addEventListener('click', evt => {
+    if (i.classList.contains('zoomed'))
+      i.style.transform = ''
+    else {
+      // const myScale = 500 / i.clientWidth;
+      // i.style.transform = `scale(${myScale})`
+      i.style.transform = `scale(1.35)`
+    }
+    i.classList.toggle('zoomed')
+  })
+})
