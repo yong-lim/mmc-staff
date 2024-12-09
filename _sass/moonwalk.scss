@@ -61,9 +61,12 @@ blockquote {
 
 img {
   border-radius: 10px;
-  max-width: 100%;
+  max-width: 80%;
   display: block;
   margin: 0 auto;
+}
+img:hover {
+  cursor: pointer;
 }
 img.logo {
   border-radius: 0px;
