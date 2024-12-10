@@ -12,10 +12,10 @@ logo-2: /logos/MMC-logo-text.png
 Here are two logos that you can use for your Gmail signature:
 
 > ![logo-1]({{ page.logo-1 }}){:.logo}
-> https://public.mmccambodia.org{{ page.logo-1 }}
+> *https://public.mmccambodia.org{{ page.logo-1 }}*
 
 > ![logo-2]({{ page.logo-2 }}){:.logo}
-> https://public.mmccambodia.org{{ page.logo-2 }}
+> *https://public.mmccambodia.org{{ page.logo-2 }}*
 <hr>
 {% include googleDrivePlayer.html id=page.driveId %}
 
