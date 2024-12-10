@@ -6,7 +6,10 @@ driveId: 1qbJOoPwVTwPYOOlO-INXKVx19ccc0tFR
 tags: [days-off]
 ---
 
-Click on this link or save as bookmark to request days off record of a staff memeber:
+Click on this link to request days off record of a staff memeber:
+[Staff Days Off Records - 2025](https://forms.gle/223KseAcPVrjhoaa9)
+
+Click on this link to request days off record of a staff memeber:
 [Staff Days Off Records - 2024](https://forms.gle/Zidt69axV3PMUCtz5)
 
 <hr>
