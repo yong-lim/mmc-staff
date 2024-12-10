@@ -1,7 +1,7 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
     <li>
-      <a href="{{ item.url }}">
+      <a href="{{ site.baseurl }}/{{ item.url }}">
         {{ item.title }}
       </a>
       &nbsp;&nbsp;
