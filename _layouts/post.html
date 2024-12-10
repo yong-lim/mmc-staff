@@ -12,6 +12,10 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
 
-{{ page.desc | markdownify | newline_to_br }}
+{{ page.desc | markdownify }}
 
-{{ content }}
+{% if page.post-tag %}
+  {% include tags_card_list.html %}
+{% else %}
+  {{ content }}
+{% endif %}
