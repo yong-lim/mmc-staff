@@ -1,7 +1,17 @@
 ---
 layout: default
 ---
+<header>
+  <ul class="horizontal-list">
+    <li>
+      <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+      &nbsp;&nbsp;
+    </li>
+  </ul>
+  <div class="dashed"></div>
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
 
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-<h1 class="post-title">{{ page.title }}</h1>
+{{ page.desc | markdownify | newline_to_br }}
+
 {{ content }}
