@@ -1,8 +1,7 @@
 ---
 layout: post
 title: All the vidoe tutorials
+desc: This is a list of all the videos tutorials.
 ---
-{% if site.theme_config.show_card_posts == true %}
-  {% include post_card_list.html %}
-{% endif %}
+{% include post_card_list.html %}
 

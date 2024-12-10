@@ -1,6 +1,7 @@
 ---
-layout: tags
+layout: post
 title: Lab Training Videos
+desc: This is a list of videos for the lab department.
 post-tag: lab
 ---
 

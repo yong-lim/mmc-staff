@@ -1,6 +1,7 @@
 ---
-layout: tags
+layout: post
 title: Days Off Videos
+desc: This is a list of videos for the days off record.
 post-tag: days-off
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: tags
+layout: post
 title: Admin Videos
+desc: This is a list of videos for the admin department.
 post-tag: admin
 ---
 
