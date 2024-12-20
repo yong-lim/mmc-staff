@@ -1,8 +1,8 @@
 navbar:
+  - title: MMC Forms
+    url: pages/mmc-forms
   - title: Google Docs
     url: pages/google-docs
-  - title: Days off
-    url: pages/days-off
   - title: Lab
     url: pages/lab
   - title: Admin
