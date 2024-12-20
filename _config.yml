@@ -50,13 +50,13 @@ defaults:
       layout: "default"
 
 exclude:
+  - README.md
+  - LICENSE
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - LICENSE
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
