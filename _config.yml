@@ -48,3 +48,23 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Icon
+  - docker-compose.yml
+
+# Default Markdown Engine
+markdown: kramdown
+
