@@ -3,7 +3,11 @@
     {% if post.tags contains page.post-tag %}
 
       <li class="card">
-        <a href="{{ post.url | relative_url }}">
+        {% if post.external_url %}
+          <a href="{{ post.external_url }}">
+        {% else %}
+          <a href="{{ post.url | relative_url }}">
+        {% endif %}
           <span class="header">
             {{ post.title }}
 
