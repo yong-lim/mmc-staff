@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Groups
-desc: Here’s a quick video on how to use a groups…
+desc: Here’s a quick video on how to use Google Groups.
 driveId: 1ytMFmrn9aB7V4aTBwkF93g_Z6Bd0Mfst
 tags: [admin, manager]
 ---
