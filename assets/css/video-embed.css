@@ -13,6 +13,7 @@
 
 .embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute;
+  padding-top: 1.2rem;
   padding-left: 5%;
   top: 0;
   left: 0;
