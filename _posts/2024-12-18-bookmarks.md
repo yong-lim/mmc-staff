@@ -6,4 +6,8 @@ driveId: 1a9MY2uZ47YAKwhA5uVq-ONeaqjrmymS6
 tags: [google-docs]
 ---
 
+{{ page.desc | markdownify }}
+
+<hr>
+
 {% include googleDrivePlayer.html id=page.driveId %}

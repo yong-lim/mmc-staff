@@ -5,7 +5,10 @@ desc: សូមទស្សនាវីដេអូនេះអំពីរប�
 driveId: 1j6j-d6EMxZWc4wR42nx6x7G3WNcHygIK
 tags: [google-docs]
 ---
-<br>
+
+{{ page.desc | markdownify }}
+
+<hr>
 {% include googleDrivePlayer.html id=page.driveId %}
 
 
