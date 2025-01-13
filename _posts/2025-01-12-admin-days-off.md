@@ -1,6 +1,6 @@
 ---
 layout: post
-title: For Admin/HR Team Days Off Records
+title: For Admin/HR Team Days Off
 desc: This page has the links for the Admin/HR team to record a staff's Days Off record.
 driveId: 1qbJOoPwVTwPYOOlO-INXKVx19ccc0tFR
 tags: [admin]
