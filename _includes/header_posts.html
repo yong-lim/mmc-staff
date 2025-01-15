@@ -3,7 +3,6 @@
   <ul class="horizontal-list">
     <li>
       <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-      &nbsp;&nbsp;
     </li>
   {% for item in site.data.menu.navbar %}
   {% assign current_page = item.url | relative_url %}
