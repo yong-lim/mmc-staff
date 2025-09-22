@@ -1,0 +1,13 @@
+---
+layout: post
+title: QR Code Generator
+desc: QR Code Generator
+tags: [google-docs]
+driveId: 1QwX0yhihCt662aDN4uJdGW2SJD4VC-aZ
+---
+
+This link is the Google Sheets that's referenced in the video:
+[MMCC QR Code Generator](https://docs.google.com/spreadsheets/d/1szFMM5aCaMw52QFSRX6JtLsGF6zj2P6mxuClmocoodg/edit?usp=sharing)
+
+
+{% include googleDrivePlayer.html id=page.driveId %}
