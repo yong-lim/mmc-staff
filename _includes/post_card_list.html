@@ -1,6 +1,7 @@
 <ul class="horizontal-list">
   {% for post in site.posts %}
 
+  {% if post.external_url == blank) %}
     <li class="card">
       <a href="{{ post.url | relative_url }}">
         <span class="header">
@@ -21,6 +22,7 @@
         {% endif %}
       </a>
     </li>
+  {% endif %}
 
   {% endfor %}
 </ul>
