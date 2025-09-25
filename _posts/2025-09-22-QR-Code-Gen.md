@@ -1,7 +1,7 @@
 ---
 layout: post
 title: QR Code Generator
-desc: QR Code Generator
+desc: QR Code Generator with Google Sheets link
 tags: [google-docs]
 driveId: 1J5Wyc_I_pfYghrbQEG-gBlyFK8c6w-Bs
 ---
