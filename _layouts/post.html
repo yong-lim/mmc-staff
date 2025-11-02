@@ -3,7 +3,7 @@ layout: default
 ---
 {%- include header_posts.html -%}
 
-<!-- {{ page.desc | markdownify }} -->
+{{ page.desc | markdownify }}
 
 {% if page.post-tag %}
   {% include tags_card_list.html %}
