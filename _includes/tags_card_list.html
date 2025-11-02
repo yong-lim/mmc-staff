@@ -17,9 +17,8 @@
 
           </span>
 
+          {% if post.desc %}
           <hr />
-
-          {% if post.desc != false %}
           <p class="body">
             {{ post.desc }}
           </p>
