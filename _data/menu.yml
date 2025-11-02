@@ -5,6 +5,8 @@ navbar:
     url: pages/google-docs
   - title: Lab
     url: pages/lab
+  - title: Doctors
+    url: pages/doctors
   - title: Admin
     url: pages/admin
   - title: All videos
