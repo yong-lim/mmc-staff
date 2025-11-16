@@ -1,8 +1,8 @@
-<ul class="horizontal-list">
+<ul class="cards-list">
   {% assign posts = site.posts | where_exp: "post", "post.driveId" %}
   {% for post in posts %}
-    <li class="card">
-      <a href="{{ post.url | relative_url }}">
+    <a class="card" href="{{ post.url | relative_url }}">
+      <li>
         <span class="header">
           {{ post.title }}
 
@@ -19,7 +19,7 @@
           {{ post.desc }}
         </p>
         {% endif %}
-      </a>
-    </li>
+      </li>
+    </a>
   {% endfor %}
 </ul>

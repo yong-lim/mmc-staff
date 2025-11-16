@@ -1,13 +1,12 @@
-<ul class="horizontal-list">
+<ul class="cards-list">
   {% for post in site.posts %}
     {% if post.tags contains page.post-tag %}
-
-      <li class="card">
-        {% if post.external_url %}
-          <a href="{{ post.external_url }}">
-        {% else %}
-          <a href="{{ post.url | relative_url }}">
-        {% endif %}
+    {% if post.external_url %}
+      <a class="card" href="{{ post.external_url }}">
+    {% else %}
+      <a class="card" href="{{ post.url | relative_url }}">
+    {% endif %}     
+         <li>
           <span class="header">
             {{ post.title }}
 
@@ -23,9 +22,8 @@
             {{ post.desc }}
           </p>
           {% endif %}
-        </a>
-      </li>
-
+        </li>
+      </a>
     {% endif %}
   {% endfor %}
 </ul>
