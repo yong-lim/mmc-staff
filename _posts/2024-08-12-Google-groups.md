@@ -17,7 +17,7 @@ Accounts security and for management of accounts of shared drives/shared folders
 
 1)  This is a screenshot of the OPD shared drive permissions at MMC. As you can see, there are too many people to manage. Just imagine if you managed thousands of people, this would be a nightmare. This is very difficult already.
 
-![Drive Sharing](/assets/images/bad-drive-sharing.jpg "bad drive sharing")
+![Drive Sharing](/assets/img/bad-drive-sharing.jpg "bad drive sharing")
 
 2)  
 

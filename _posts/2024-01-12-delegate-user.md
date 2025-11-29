@@ -13,11 +13,10 @@ tags: [lab, google-docs]
 ### Instructions with screen capture:
 
 1) Accept the Grant Access Email 
-![Accept delegated](/assets/images/Delegated_Account_Accept.jpg "Accept delegate email")
+![Accept delegated](/assets/img/Delegated_Account_Accept.jpg "Accept delegate email")
 
 2) How to switch to the other account
-![Switch user](/assets/images/Delegated_Account_Switch.jpg "Switch user")
+![Switch user](/assets/img/Delegated_Account_Switch.jpg "Switch user")
 
 3) What the other account looks like
-![In other user](/assets/images/Delegated_Account_Other.jpg "In other user")
-
+![In other user](/assets/img/Delegated_Account_Other.jpg "In other user")

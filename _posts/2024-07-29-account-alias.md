@@ -14,4 +14,4 @@ tags: [admin]
 * Select "Add Alternative Emails" 
 * Enter the alternative email address and click save
 
-![Account alias](/assets/images/account-alias.jpg "account alias")
+![Account alias](/assets/img/account-alias.jpg "account alias")
