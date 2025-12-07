@@ -1,0 +1,25 @@
+---
+layout: post
+title: 2025 Appointments for all doctors
+description: "" 
+tags: [doctors]
+year: 2025
+gdrive: "https://docs.google.com/spreadsheets/d/"
+m11: "1temtdKMccORqKjqhZlPiM2XH0aF46-sxu9gl0yx7Spc/edit?#gid="
+m12: "1ExX789ADhB6SH6VxpdTvm4_26CGBt_lg5mg_ufTJzZQ/edit?gid="
+dates:
+  - { date: '2025-11-24', sheetID: '547035961' }
+  - { date: '2025-11-25', sheetID: '470759103' }
+  - { date: '2025-11-26', sheetID: '1937346913' }
+  - { date: '2025-11-27', sheetID: '1146062389' }
+  - { date: '2025-11-28', sheetID: '176212872' }
+  - { date: '2025-12-08', sheetID: '2088130745' }
+  - { date: '2025-12-01', sheetID: '1188716149' }
+  - { date: '2025-12-02', sheetID: '60725390' }
+  - { date: '2025-12-03', sheetID: '1851970574' }
+  - { date: '2025-12-04', sheetID: '1900432651' }
+  - { date: '2025-12-05', sheetID: '452667461' }
+  - { date: '2025-12-08', sheetID: '2088130745' }
+---
+
+{% include calendar.md %}
