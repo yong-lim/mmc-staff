@@ -47,7 +47,7 @@ https://blog.jakelee.co.uk/jekyll-calendar-custom-events/#displaying-a-month-->
                     {%- endif %}
                     <!--{%- assign events = events | append: years_ago_text | append: event.sheetID | append: " <i>(in <a href='" | append: post.url | append: "'>" | append: post.sheetID | append: "</a>)</i><br>" %}-->
                     {%- assign e_month = "m" | append: month_str %}
-                    {%- assign events = page.gdrive | append: page.[e_month] | append: event.sheetID %}
+                    {%- assign events = page.gdrive | append: page.[e_month] | append: "/edit?gid=" | append: event.sheetID %}
                   {%- endif %}
                 {%- endfor %}
 
