@@ -24,7 +24,7 @@ theme_config:
   show_reading_time: true # show number of words and reading time in the blog posts
   # options for "home" page
   home:
-    title_projects: 
+    title_projects:
     title_misc_list: Details
     title_blog: Blog
     title_old_projects: Old Projects
@@ -32,7 +32,7 @@ theme_config:
 highlighter: rouge
 
 sass:
-  style: :compressed
+  style: compressed
 
 G-link: https://drive.google.com/file/d/
 
@@ -67,4 +67,3 @@ exclude:
 
 # Default Markdown Engine
 markdown: kramdown
-
