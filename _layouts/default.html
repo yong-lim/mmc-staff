@@ -13,6 +13,8 @@
         {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}
         {% endif %}
+        <br>
+        <div class="dashed"></div>
         <div class="credits">
           {%- if site.theme_config.show_copyright == true -%}
           &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
@@ -27,11 +29,8 @@
           Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
           -->
         </div>
-        <br> <br> <br>
-        <div class="dashed"></div>
       </div>
     </main>
     {% include scripts.html %}
   </body>
 </html>
-
