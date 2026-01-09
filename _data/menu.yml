@@ -11,3 +11,5 @@ navbar:
     url: pages/admin
   - title: All videos
     url: pages/all
+  - title: Web Files
+    url: https://drive.google.com/drive/folders/1nOv_odTCWHfPfncYWNluthS5ooSyvKkv?usp=sharing
