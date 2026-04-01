@@ -13,7 +13,7 @@ folders:
 ---
 <ul class="horizontal-list">
   {% for f in page.folders %}
-    <a class="card" href="{{ page.gdrive }}{{ f.folder-id }}" style="margin: 0 1.2em 1.2em 0">
+    <a class="card" href="{{ page.gdrive }}{{ f.folder-id }}" style="margin: 0 1.2em 1.2em 0" target="_blank" rel="noopener noreferrer">
       <li>
         <span class="header">
           {{ f.name }}
