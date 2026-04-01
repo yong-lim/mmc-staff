@@ -12,9 +12,13 @@
 
   {% if site.theme_config.show_description == true %}
     {%- if page.desc -%}
-      <p>{{ page.desc | markdownify }}</p>
+      <span class="header">
+        {{ page.desc | markdownify }}
+      </span>
     {%- else -%}
-      <p>{{ site.description | markdownify }}</p>
+      <span class="header">
+        {{ site.description | markdownify }}
+      </span>
     {%- endif -%}
   {% endif %}
 </header>
