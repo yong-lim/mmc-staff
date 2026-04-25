@@ -8,7 +8,7 @@ folders:
     folder-id: 1ixLh0EvYJhHJRAuxKriFn0VPl1yVKDrS
   - name: MMCC Services
     folder-id: 1AWI5RmStzN9om4H963HNCTRak8QZmxAE
-  - name: All Files n Folders
+  - name: All Files and Folders
     folder-id: 1nOv_odTCWHfPfncYWNluthS5ooSyvKkv
 ---
 <ul class="horizontal-list">
