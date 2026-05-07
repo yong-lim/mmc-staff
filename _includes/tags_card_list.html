@@ -1,5 +1,6 @@
+{% assign sorted_posts = site.posts | sort: "order" %}
 <ul class="cards-list">
-  {% for post in site.posts %}
+  {% for post in sorted_posts %}
     {% if post.tags contains page.post-tag %}
     {% if post.external_url %}
       <a class="card" href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer">
