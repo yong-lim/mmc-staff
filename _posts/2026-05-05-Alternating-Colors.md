@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2. Colors / ពណ៌
+title: 2. Alternating Colors / ពណ៌ឆ្លាស់គ្នា។
 desc: Add alternating colors
 driveId: 1hdSB8Gme9J8c8yLs0pMOQefeISpj_rdc
 tags: [reg, google-docs]
