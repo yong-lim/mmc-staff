@@ -9,4 +9,6 @@ order: 2
 
 ### How to add alternating colors to Google Sheets:
 
+![Alternating Colors](/assets/img/reg/alternating-colors.png "Alternating Colors")
+
 {% include googleDrivePlayer.html id=page.driveId %}

@@ -9,19 +9,20 @@ order: 5
 
 ### How to rename Goole file and Google Sheet:
 
-ប្រើលេខកូដនេះសម្រាប់ពិនិត្យអ្នកជំងឺស្ទួន:
-Use this code for checking duplicate patients:
+ប្រើលេខកូដនេះសម្រាប់ពិនិត្យអ្នកជំងឺស្ទួន: /  Use this code for checking duplicate patients:
 ```
 =COUNTIF(C:C, C7) > 1
 ```
+![Find Duplicate Name](/assets/img/reg/find-duplicate-name.png "Find duplicate name")
 
-ប្រើលេខកូដនេះសម្រាប់ការគិតថ្លៃខ្ពស់ ឬ IPD ឬ UC Dr.:
+ប្រើលេខកូដនេះសម្រាប់ការគិតថ្លៃខ្ពស់ ឬ IPD ឬ UC Dr.: /
 Use this code for highliting Charge or IPD or UC Dr.:
 ```
 =OR($B7=$D$1,$B7=$D$2,$B7=$D$3,$B7=$D$4)
 ```
+![Color Off Drs.](/assets/img/reg/color-off-drs.png "Color Off Drs.")
 
-ប្រើលេខកូដនេះសម្រាប់ការបន្លិច dr.:
+ប្រើលេខកូដនេះសម្រាប់ការបន្លិច dr.: / 
 Use this code for highliting off dr.:
 ```
 =OR($B7=$G$1, $B7=$G$2, $B7=$G$3, $B7=$G$4)
