@@ -5,8 +5,8 @@ navbar:
     url: pages/google-docs
   - title: Lab
     url: pages/lab
-  - title: Registration
-    url: pages/registration
+  - title: The Way of Life
+    url: pages/the-way
   - title: Doctors
     url: pages/doctors
   - title: Admin
