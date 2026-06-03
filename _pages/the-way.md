@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Way of Life
-desc: This is a list of audio files plus a YouTube channel.
+desc: This is a list of audio files plus a link to the YouTube channel.
 post-tag: way
 ---
 The Way of Life
