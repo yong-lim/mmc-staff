@@ -60,6 +60,7 @@ exclude:
   - vendor/
   - Icon
   - docker-compose.yml
+  - .jj/
 
 # Default Markdown Engine
 markdown: kramdown
