@@ -31,6 +31,9 @@ theme_config:
 
 highlighter: rouge
 
+# Default Markdown Engine
+markdown: kramdown
+
 sass:
   style: compressed
 
@@ -61,6 +64,3 @@ exclude:
   - Icon
   - docker-compose.yml
   - .jj/
-
-# Default Markdown Engine
-markdown: kramdown
