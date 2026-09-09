@@ -1,4 +1,4 @@
-<ul class="cards-list">
+<ul class="horizontal-list">
   {% assign posts = site.posts | where_exp: "post", "post.driveId" %}
   {% for post in posts %}
     <a class="card" href="{{ post.url | relative_url }}">
