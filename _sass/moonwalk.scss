@@ -88,6 +88,8 @@ html {
     --code-text: #9D174D;
     --share-text: #999;
     --color-menu: #C70039;
+    --border: rgba(15, 23, 42, 0.08);
+    --border-subtle: rgba(15, 23, 42, 0.05);
 }
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
@@ -104,6 +106,8 @@ html {
       --code-text: #91A7FF;
       --share-text: #C4C4C4;
       --color-menu: #f8c348;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-subtle: rgba(255, 255, 255, 0.05);
   };
 }
 html[data-theme="dark"] { @include dark-appearance; }
