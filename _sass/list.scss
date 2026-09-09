@@ -48,7 +48,15 @@ ul.cards-list{
   align-items: center;
   background-color: var(--bg-secondary);
   /* margin-bottom: 0.8em; */
-  border-radius: 0.8em;
+  border-radius: var(--radius-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    border: 1.5px var(--text) solid;
+    border-color: var(--links);
+  }
 
   .header {
     color: var(--links);
