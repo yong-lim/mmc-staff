@@ -236,3 +236,16 @@ p code, li code {
   // color: #f8c348;
   color: var(--color-menu);
 }
+
+.header-class {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background-color: var(--bg);
+  color: #f1f1f1;
+  z-index: 999;
+}
+
+.w-padding {
+  padding: 10px 16px;
+}
