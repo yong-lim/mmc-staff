@@ -1,8 +1,13 @@
 
-<header>
+<header class="header-class">
   <ul class="horizontal-list">
-    <li>
+    <!--<li>
       <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+    </li>-->
+    <li>
+      <a href="/">
+        <img style="margin-top: -13px", src="{{ site.baseurl }}/MMC-logo.png" alt="MMC" width="57" height="50">
+      </a>
     </li>
   {% for item in site.data.menu.navbar %}
   {% assign current_page = item.url | relative_url %}
@@ -17,6 +22,6 @@
   </ul>
 
   <div class="dashed"></div>
-  <h1 class="post-title">{{ page.title }}</h1>
 </header>
 
+<h1 class="post-title">{{ page.title }}</h1>
