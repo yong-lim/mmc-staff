@@ -44,7 +44,14 @@ ul.horizontal-list {
 //   opacity: 0.8;
 // }
 
+.card-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;          /* Stretches to the top, bottom, left, and right edges */
+  z-index: 1;        /* Ensures the invisible overlay sits above text contents */
+}
 .card {
+  position: relative; /* 1. Creates the boundaries for the stretched link */
   padding: 1em;
   border: 1px var(--text) solid;
   width: 11em;
