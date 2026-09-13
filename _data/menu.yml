@@ -7,8 +7,6 @@ navbar:
     url: pages/lab
   - title: The Way of Life
     url: pages/the-way
-  - title: Doctors
-    url: pages/doctors
   - title: Admin
     url: pages/admin
   - title: All videos
