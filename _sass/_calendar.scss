@@ -1,3 +1,4 @@
+@use "sass:color";
 /* Calendar */
 
 .calendar-container {
@@ -36,5 +37,5 @@
 
 .calendar-event:hover {
   /*color: lighten(#ca644e, 10%);*/
-  color: lighten(#e22, 10%);
+  color: color.adjust(#e22, $lightness: 10%);
 }
