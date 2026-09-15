@@ -7,77 +7,6 @@
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
 }
-
-html { height: 100%; }
-
-body {
-  font-family: "Nunito", sans-serif, -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1.0rem;
-  line-height: 2;
-  margin: 0;
-  min-height: 100%;
-}
-pre, code {
-  font-family: "Anonymous Pro", "Courier New", monospace;
-  font-size: 0.9rem;
-}
-
-h2, h3, h4, h5 { margin-top: 1.5em; }
-
-hr { margin: 1em 0; }
-
-hr.page-break {
-  text-align: center;
-  border: 0;
-
-  &:before { content: '-----' }
-  &:after { content: attr(data-content) '-----' }
-}
-
-p { margin: 1.5em 0; }
-
-li { margin: 0.4em 0; }
-
-.w {
-  // width: 80%;
-  max-width: 85%;
-  margin: 0 auto;
-  padding: 0px 2em;
-}
-
-table, th, td {
-  width: 100%;
-  border: thin solid black;
-  border-collapse: collapse;
-  padding: 0.4em;
-}
-
-div.highlighter-rouge pre code, pre code.highlighter-rouge {
-  display: block;
-  overflow-x: auto;
-  padding: 1em;
-}
-
-blockquote {
-  border: thin solid black;
-  padding: 1em;
-
-  p { margin: 0; }
-}
-
-img {
-  border-radius: 10px;
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-img:hover {
-  cursor: pointer;
-}
-img.logo {
-  border-radius: 0px;
-  width: 115px;
-}
 html {
     --bg: #FFF;
     --bg-secondary: #f8f8f8;
@@ -115,30 +44,6 @@ html[data-theme="dark"] { @include dark-appearance; }
 @media (prefers-color-scheme: dark) {
   body[data-theme="auto"] { @include dark-appearance; }
 }
-// -------------------------------------------- //
-
-html, body {
-    background-color: var(--bg);
-    color: var(--text);
-}
-h1, h2, h3, h4, h5, h6 {
-    color: var(--headings);
-}
-p, strong, b, em, small, li, hr, table, figcaption {
-    color: var(--text);
-}
-.highlight, pre code, blockquote {
-  border-radius: 0.5em;
-}
-blockquote {
-  background-color: var(--bg-secondary);
-  border: 1px var(--border) solid;
-}
-a {
-  color: var(--links);
-  text-decoration: none;
-}
-*:target { background-color: var(--bg-secondary); }
 
 html.transition,
 html.transition *,
@@ -147,6 +52,86 @@ html.transition *:after {
     transition: all 250ms !important;
     transition-delay: 0 !important;
 }
+
+// *:target { background-color: var(--bg-secondary); }
+
+html { height: 100%; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Nunito", sans-serif, -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
+  font-size: 1.0rem;
+  line-height: 2;
+  margin: 0;
+  min-height: 100%;
+}
+pre, code {
+  font-family: "Anonymous Pro", "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+// h2, h3, h4, h5 { margin-top: 1.5em; }
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headings);
+}
+hr { margin: 1em 0; }
+
+hr.page-break {
+  text-align: center;
+  border: 0;
+
+  &:before { content: '-----' }
+  &:after { content: attr(data-content) '-----' }
+}
+
+p { margin: 1.5em 0; }
+p, strong, b, em, small, li, hr, table, figcaption {
+    // color: var(--text);
+  color: var(--text);
+}
+li { margin: 0.4em 0; }
+a {
+  color: var(--links);
+  text-decoration: none;
+}
+table, th, td {
+  width: 100%;
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4em;
+}
+
+div.highlighter-rouge pre code, pre code.highlighter-rouge {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+.highlight, pre code, blockquote {
+  border-radius: 0.5em;
+}
+blockquote {
+  // border: thin solid black;
+  background-color: var(--bg-secondary);
+  border: 1px var(--border) solid;
+  padding: 1em;
+  p { margin: 0; }
+}
+img {
+  border-radius: 10px;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+img:hover {
+  cursor: pointer;
+}
+img.logo {
+  border-radius: 0px;
+  width: 115px;
+}
+
+// -------------------------------------------- //
 
 .theme-toggle {
   color: var(--text);
@@ -159,6 +144,7 @@ html.transition *:after {
   top: 0;
   border: 2px transparent solid;
   outline: none;
+  z-index: 999;
 }
 
 .theme-toggle:hover {
@@ -240,12 +226,31 @@ p code, li code {
 .header-class {
   position: sticky;
   top: 0;
-  padding: 10px 16px;
+  padding: 0px 16px;
   background-color: var(--bg);
   color: #f1f1f1;
-  z-index: 999;
+  z-index: 99;
+}
+
+.w {
+  // width: 80%;
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 2em 1em;
+  /* Top | Left & Right | Bottom */
 }
 
 .w-padding {
-  padding: 16px 16px;
+  padding: 0 16px 0 16px;
+}
+
+.align-inline {
+  display: inline-block;
+  vertical-align: middle; /* Keeps the text and image vertically aligned */
+}
+
+.flex-container {
+  display: flex;         /* Activates flexbox layout */
+  align-items: center;   /* Perfectly centers text and image vertically */
+  gap: 12px;             /* Creates clean space between image and text */
 }
