@@ -1,6 +1,15 @@
 <header class="header-class">
   {% if site.theme_config.show_navbar == true %}
-    {% include horizontal_list.html collection=site.data.menu.navbar %}
+    <ul class="horizontal-list">
+      <li>
+        <a href="/">
+          <div class="flex-container">
+            <img style="margin-top: -13px", src="{{ site.baseurl }}/MMC-logo.png" alt="MMC" width="57" height="50" >
+            <p>Home...</p>
+          </div>
+        </a>
+      </li>
+    </ul>
     <div class="dashed"></div>
   {% endif %}
 </header>
