@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MMC Forms
-desc: This is a list of forms for the MMC staff.
+desc: This is a list of Google forms for the MMC staff.
 post-tag: mmc-forms
 ---
 
