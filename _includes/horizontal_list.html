@@ -1,9 +1,4 @@
 <ul class="horizontal-list">
-  <li>
-    <a href="/">
-      <img style="margin-top: -13px", src="{{ site.baseurl }}/MMC-logo.png" alt="MMC" width="57" height="50">
-    </a>
-  </li>
   {% for item in include.collection %}
     {% assign current_page = item.url | relative_url %}
     <li>
