@@ -6,6 +6,9 @@ layout: default
 
 {{ content }}
 
+{% if site.theme_config.show_navpage == true %}
+  {% include page_card_list.html collection=site.data.menu.navbar %}
+{% endif %}
 {% if site.theme_config.show_footer == true %}
   <footer>
     <div class="dashed"></div>
