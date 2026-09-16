@@ -1,0 +1,14 @@
+<ul class="horizontal-list">
+  {% for post in include.collection %}
+    <a class="card" href="{{ post.url | relative_url }}">
+      <li>
+        <span class="header">
+          {{ post.title }}
+          {% if post.highlight %}
+            <mark>{{ post.highlight }}</mark>
+          {% endif %}
+        </span>
+      </li>
+    </a>
+  {% endfor %}
+</ul>
