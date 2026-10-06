@@ -55,7 +55,10 @@ html.transition *:after {
 
 // *:target { background-color: var(--bg-secondary); }
 
-html { height: 100%; }
+html {
+  scrollbar-gutter: stable;
+  height: 100%;
+}
 
 body {
   background-color: var(--bg);
