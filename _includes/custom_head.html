@@ -1,3 +1,13 @@
 {% comment %}
   Placeholder to allow defining custom head. You can put favicons and other custom header fields here
 {% endcomment %}
+
+<script type="text/javascript">
+  (() => {
+    const saved = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = saved ?? (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  })();
+</script>
