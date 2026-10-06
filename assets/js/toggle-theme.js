@@ -1,34 +1,67 @@
-  window.addEventListener('load', themeChange);
-  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
-  if (currentTheme)
-    document.documentElement.setAttribute('data-theme', currentTheme);
+  // window.addEventListener('load', themeChange);
+  // const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  // if (currentTheme)
+  //   document.documentElement.setAttribute('data-theme', currentTheme);
 
-  function themeChange() {
-    var button = document.querySelector('.theme-toggle');
-    if (!button) return;
+  // function themeChange() {
+  //   var button = document.querySelector('.theme-toggle');
+  //   if (!button) return;
 
-    function updateIcon(theme) {
-      button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
-      button.querySelector('.icon-sun').style.display = theme === 'dark' ? 'block' : 'none';
-      button.querySelector('.icon-moon').style.display = theme === 'dark' ? 'none' : 'block';
-    }
+  //   function updateIcon(theme) {
+  //     button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+  //     button.querySelector('.icon-sun').style.display = theme === 'dark' ? 'block' : 'none';
+  //     button.querySelector('.icon-moon').style.display = theme === 'dark' ? 'none' : 'block';
+  //   }
 
-    updateIcon(document.documentElement.getAttribute('data-theme'));
+  //   updateIcon(document.documentElement.getAttribute('data-theme'));
 
-    button.addEventListener('click', function (e) {
-      var currentTheme = document.documentElement.getAttribute('data-theme');
-      var next = currentTheme === 'dark' ? 'light' : 'dark';
+  //   button.addEventListener('click', function (e) {
+  //     var currentTheme = document.documentElement.getAttribute('data-theme');
+  //     var next = currentTheme === 'dark' ? 'light' : 'dark';
 
-      transition();
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-      updateIcon(next);
+  //     transition();
+  //     document.documentElement.setAttribute('data-theme', next);
+  //     localStorage.setItem('theme', next);
+  //     updateIcon(next);
+  //   });
+
+  //   function transition() {
+  //     document.documentElement.classList.add('transition');
+  //     window.setTimeout(function () {
+  //       document.documentElement.classList.remove('transition');
+  //     }, 1000);
+  //   }
+  // }
+
+  (() => {
+    // updateIcon(document.documentElement.getAttribute('data-theme'));
+    updateIcon(localStorage.getItem("theme"));
+    document.querySelector(".theme-toggle").addEventListener("click", () => {
+      toggleMode();
     });
+  })();
 
-    function transition() {
-      document.documentElement.classList.add('transition');
-      window.setTimeout(function () {
-        document.documentElement.classList.remove('transition');
-      }, 1000);
-    }
+  function updateIcon(theme) {
+    const button = document.querySelector(".theme-toggle");
+    if (!button) return;
+    // console.log(theme);
+    button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    button.querySelector('.icon-sun').style.display = theme === 'dark' ? 'block' : 'none';
+    button.querySelector('.icon-moon').style.display = theme === 'dark' ? 'none' : 'block';
   }
+
+  function toggleMode() {
+    const current = document.documentElement.getAttribute("data-theme");
+    const next    = current === "dark" ? "light" : "dark";
+
+    // document.documentElement.setAttribute("data-theme", next);
+    if (!document.startViewTransition) {
+      document.documentElement.setAttribute('data-theme', next);
+    } else {
+      document.startViewTransition (() => {
+        document.documentElement.setAttribute('data-theme', next);
+      });
+    }
+    localStorage.setItem("theme", next);
+    updateIcon(next);
+  };
