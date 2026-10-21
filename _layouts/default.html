@@ -8,24 +8,26 @@ layout: compress
   {%- include head.html -%}
 
   <body>
-    <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <header class="wrapper-header">
+          {% include header.html %}
+      </header>
 
-      <div class="w">
-
+      <main class="wrapper-main page-content" aria-label="Content">
         {{ content }}
+      </main>
+    </div>
+    <footer class="wrapper-footer">
+      {% if site.theme_config.appearance_toggle %}
+        {% include toggle_theme.html %}
+      {% endif %}
 
-        {% if site.theme_config.appearance_toggle %}
-          {% include toggle_theme.html %}
-        {% endif %}
-        <br>
-        <div class="dashed"></div>
-        <div class="credits">
-          {%- if site.theme_config.show_copyright == true -%}
-            &copy;&nbsp;2017-{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
-          {%- endif -%}
-        </div>
+      {% include back_to_top.html %}
+      <div class="credits">
+        {%- if site.theme_config.show_copyright == true -%}
+          &copy;&nbsp;2017-{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
+        {%- endif -%}
       </div>
-    </main>
-    {% include back_to_top.html %}
+    </footer>
   </body>
 </html>
