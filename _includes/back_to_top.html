@@ -8,18 +8,22 @@
   .back-to-top {
     position: fixed;
     bottom: 2em;
-    right: 2em;
-    width: 42px;
-    height: 50px;
+    right: 1.2em;
+    width: 30px;
+    height: 42px;
     border-radius: 50%;
     border: 1px solid var(--border);
     background: var(--bg-secondary);
     color: var(--text);
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s ease;
+    /*transition: opacity 0.3s ease;*/
+    transition: 0.3s;
+    transform: translateY(10px);
+    box-shadow: 0 0.25rem .7rem rgba(65, 90, 119, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +34,9 @@
     pointer-events: auto;
   }
   .back-to-top:hover {
-    color: orange;
+    color: var(--links);
+    transform: translate3d(0, -4px, 0);
+    -webkit-transform: translate3d(0, -2px, 0);
   }
   @media screen and (max-width: 600px) {
     .back-to-top {
