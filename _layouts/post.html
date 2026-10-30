@@ -4,5 +4,7 @@ layout: default
 {% if page.post-tag %}
   {% include tags_card_list.html %}
 {% else %}
+<div class="w-padding">
   {{ content }}
+</div>
 {% endif %}
